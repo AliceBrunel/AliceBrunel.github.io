@@ -1,11 +1,11 @@
 # Site settings
 author: Alice Brunel
-title: 
+title: Alice's tech diary
 header-img: img/home-bg.png
 email: alc.brunel@gmail.com
 copyright_name: Alice Brunel
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Journey towards web development
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  AliceBrunel
