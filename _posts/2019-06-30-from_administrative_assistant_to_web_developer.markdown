@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "From administrative assistant to web developer"
-date:       2019-06-30 16:08:18 +0000
+date:       2019-06-30 12:08:19 -0400
 permalink:  from_administrative_assistant_to_web_developer
 ---
 
