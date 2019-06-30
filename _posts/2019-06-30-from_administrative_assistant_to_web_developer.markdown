@@ -7,7 +7,7 @@ permalink:  from_administrative_assistant_to_web_developer
 
 <p align="justify"><strong>Joining the Flatiron School a few days ago is the logic continuation of my coding journey. I began this journey a few years ago, when I wanted to own and develop a blog about ethical fashion, but found myself spending more time styling the CSS sheet than actually writing content.</strong></p>
 
-<center>![](http://media.giphy.com/media/3og0IGX21uckYZnBAs/giphy.gif)<center>
+![](http://media.giphy.com/media/3og0IGX21uckYZnBAs/giphy.gif)
 <p><i>This is kind of how it started</i></p>
 
 <p align="justify">This takes me back in 2012 when I was starting my career. I was working for an international NGO as an administrative assistant. It was my first job and I was comfortable with any kind of communication tool or software, especially the Office Suite. I liked designing things or applying a new knowledge I would learn through online Photoshop or Indesign tutorials, and I enjoyed being able to help anyone with their Excel sheets, for instance.</p>
