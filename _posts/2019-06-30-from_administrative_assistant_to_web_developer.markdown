@@ -17,7 +17,7 @@ permalink:  from_administrative_assistant_to_web_developer
 
 <p align="justify">In fact, I really enjoyed working with the IT and dev teams all along my career, and being at the service of our users. I wanted to belong fully to this group, but at the moment my position wasn't attached to the technical department. However, some of the guys from this department taught me some things now and then, and our discussions at the coffee machine were always about tech news and video games. I was awed by some pieces of work they did, and basically admired most of the developers I met -  and this is how and why I met my partner!</p>
 
-[](https://thumbs.gfycat.com/KaleidoscopicJadedBellfrog-max-1mb.gif)
+<p align="center">![](https://thumbs.gfycat.com/KaleidoscopicJadedBellfrog-max-1mb.gif)</p>
 
 <p align="justify">To say the least, the impostor feeling was strong in any of these positions and I always felt like something wasn't quite right. A year ago, I gave my 2 months notice to move in the UK and start a new journey as a web designer. I started coding for fun, to improve my skills but also out of curiosity for the new technologies I didn't know about yet. I felt free and empowered when building websites, small applications, UI components, and I realised that days were going by really really fast. So, recently, I decided to take the leap and joined the Flatiron School, to fulfill my dream of being a developer.</p>
 
