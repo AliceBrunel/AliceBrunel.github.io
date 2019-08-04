@@ -9,6 +9,7 @@ Each new step in the learning of Ruby seems more interesting than the other but 
 
 Thus, I decided to take a step-by-step approach that I am sharing here.
 
+
 ## The structure of your program
 
 ### A - The environment file in config folder
@@ -39,5 +40,7 @@ Read the classes files and decide which methods you want to put in external modu
 * Go back to the Class files and put the **extend or include keyword**
 * Run your test if you are in a test driven configuration 
 * Delete the commented methods
+
+
 
 I tend to get distracted by a few things when I code (like, "why is this code written like that?", "did I really make this mistake?", "I should change the order of these methods", "Oh, I forgot an end...") so having a simple check-list can actually save me some times. I hope it can help someone else too!
