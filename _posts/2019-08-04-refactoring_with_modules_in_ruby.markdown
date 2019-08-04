@@ -25,8 +25,7 @@ Thus, I decided to take a step-by-step approach that I am sharing here.
 ## The refactoring check-list
 
 ### Step 1 
-Read the classes files and decide which methods you want to put in external modules :
-* If you find the same method in your Class files, you may consider refactoring the repeted method in a module file
+* Read the classes files and decide which methods you want to put in external modules. If you find the same method in your Class files, you may consider refactoring the repeted method in a module file
 * Comment the methods that you want to refactor
 * Are these Class methods? If yes, you will have to use the **extend** keyword and get rid of the *self* reference when defining the method
 * Are these Instance methods? If yes, you will have to use the **include** keyword.
