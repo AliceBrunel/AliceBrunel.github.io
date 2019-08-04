@@ -38,7 +38,7 @@ Thus, I decided to take a step-by-step approach that I am sharing here.
 ### Step 3
 * Go back to the Class files and put the **extend or include keyword**
 * Run your test if you are in a test driven configuration 
-* Delete the commented methods
+* Delete the commented methods or puts you **super** keyword
 
 
 
