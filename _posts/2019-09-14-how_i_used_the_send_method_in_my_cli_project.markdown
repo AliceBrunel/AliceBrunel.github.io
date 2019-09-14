@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "How I used the `send` method in my CLI project"
-date:       2019-09-14 16:23:07 +0000
+title:      "How I used `send` to call on an object's attribute"
+date:       2019-09-14 12:23:08 -0400
 permalink:  how_i_used_the_send_method_in_my_cli_project
 ---
 
