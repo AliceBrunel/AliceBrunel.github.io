@@ -25,17 +25,13 @@ I would also recommend reading the excellent article from **[Kim Nguyen on Mediu
 When I started to think about my project, I only thought that I would need Users, Menus, Meals and Recipes tables, and I couldn't see how they would be related together. So I started to draw a simple diagram, and played around with the relations. 
 
 <div style="text-align:center">
-
-![DB schema 1](https://miro.medium.com/max/591/1*fqoNEx0ANehkelexuDQT5w.png)
-
+<img src="https://miro.medium.com/max/591/1*fqoNEx0ANehkelexuDQT5w.png" alt="DB_schema_1"/>
 </div>
 
 It became clear that I would need a join table at one point, but I could see how. What is interesting is that drawing your tables challenge the logic of your project. It seemed linguistically correct for me to think that a meal would have a specific recipe, and that I would need a recipe table. But in fact, in this case a recipe is an attribute of the meal, and not an item that should be linked to the meal. It became clear for me only when I started to work on the relations of all the tables.
 
 <div style="text-align:center">
-
-![DB schema 2](https://miro.medium.com/max/550/1*RYhnv5O7psJ09qzxeEha2Q.png)
-
+<img src="https://miro.medium.com/max/550/1*RYhnv5O7psJ09qzxeEha2Q.png" alt="DB_schema_2"/>
 </div>
 
 So I got rid of the Recipe table and added the ingredient and directions field to the Meals table. 
@@ -56,9 +52,7 @@ It's getting clearer, but let's schematise this:
 
 To build my menus, I just need a join table to associate a meal to a menu. Now, my tables relationships can be structured as below:
 <div style="text-align:center">
-
-![DB schema 4](https://miro.medium.com/max/798/1*0we1VoXRNfMm6YkAKzQ3xw.png)
-
+<img src="https://miro.medium.com/max/798/1*0we1VoXRNfMm6YkAKzQ3xw.png" alt="DB_schema_4"/>
 </div>
 
 I hope this can be of any help! I hope this could also help other students to get a good start on their project. It is not a complex architecture, but I think the step-by-step can be helpful to feel more confident about building databases.
