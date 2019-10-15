@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra project: MenuCMS and what I learned"
-date:       2019-10-15 09:46:34 +0000
+date:       2019-10-15 05:46:35 -0400
 permalink:  sinatra_project_menucms_and_what_i_learned
 ---
 
