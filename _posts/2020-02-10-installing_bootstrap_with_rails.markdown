@@ -25,6 +25,7 @@ On the Bootstrap page, there is a section about Ruby Gem. Unfortunately, this se
 
 ## Adding to the Gemfile
 Go to the gem readme and copy the code to add to your Gemfile :
+
 ```gem 'bootstrap', '~> 4.4.1'``` 
 
 ## Check in the gemfile.lock the version sprockets-rails
@@ -40,14 +41,16 @@ Close your running server and run bundle install :
 
 ## Import Bootstrap style
 ### rename the application.css file
-Once you get the installation confirmation, look for the application.css file in `app/assets/stylesheets` and rename it to application.scss. Depending on how many models you created, you will have to rename the extension of all your .css files to .scss.
+Once you get the installation confirmation, look for the application.css file in `app/assets/stylesheets` and rename it to application.scss. Depending on how many models you created, **you will have to rename the extension of all your .css files to .scss**.
 
 ### Insert the @import bootstrap
 Under the commented text (you can also delete it), copy-paste the import variable in each of your .scss files :
+
 ```@import "bootstrap";```
 
 ## Javascript adding 
 If you haven't added jquery gem yet, put it in your Gemfile :
+
 ```gem 'jquery-rails'```
 And `bundle install`. Then, in your javascripts folder in app/assets, look for the application.js file, and paste the following in this specific order:
 ```
