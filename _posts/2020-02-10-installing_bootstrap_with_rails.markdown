@@ -4,6 +4,7 @@ title:      "Installing Bootstrap in a Rails application"
 date:       2020-02-10 05:46:35 -0400
 permalink:  installing_bootstrap_with_rails
 ---
+
 # Introduction 
 
 Just a quick reminder about what is Bootstrap :
