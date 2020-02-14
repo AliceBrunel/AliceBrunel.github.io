@@ -18,8 +18,8 @@ For instance, I was surprised to see that nothing appears in the user controller
 ### What if I already created an authentication?
 So what Devise do is basically the same thing that when you build a custom made authentication with a few exceptions if you did your own authentication system before installing the gem:  
 
-*There is no need to delete your user model or controller before installing it, and you can keep your custom methods. The only thing that you need to know is that Devise has its own encrypting methods and is already using Bcrypt. Which means that you will have to [delete the password_digest attribute in your user model and the has_secure_password](https://stackoverflow.com/questions/38840292/argumenterror-when-using-devise-and-has-secure-password-together) in the model. For more information about how Devise uses Bcrypt : [How Devise keeps your Rails app passwords safe.](https://www.freecodecamp.org/news/how-does-devise-keep-your-passwords-safe-d367f6e816eb/)
-*The Devise generator will recognise if you already have a User model and ```will add_columns``` to your model with a migration migration file automatically generated. You don't have to modify your user attributes in your first User migration file.
+* There is no need to delete your user model or controller before installing it, and you can keep your custom methods. The only thing that you need to know is that Devise has its own encrypting methods and is already using Bcrypt. Which means that you will have to [delete the password_digest attribute in your user model and the has_secure_password](https://stackoverflow.com/questions/38840292/argumenterror-when-using-devise-and-has-secure-password-together) in the model. For more information about how Devise uses Bcrypt : [How Devise keeps your Rails app passwords safe.](https://www.freecodecamp.org/news/how-does-devise-keep-your-passwords-safe-d367f6e816eb/)
+* The Devise generator will recognise if you already have a User model and ```will add_columns``` to your model with a migration migration file automatically generated. You don't have to modify your user attributes in your first User migration file.
 
 ## Why are my user attributes not saved?
 It also took me a few minutes to realise that some of my user attributes were not saved when creating a new user, while the logging in and out was working. So what was happening? 
@@ -31,20 +31,20 @@ I found this video tutorial to be a good one to understand how to deal with your
 ## What is happening with my helper and validation methods?
 
 The other thing is that you don't have to create authentication helpers as some are created for you :
-*authenticate_user!
-*current_user
-*user_signed_in?
-*sign_in(@user)
-*sign_out(@user)
-*user_session
+* authenticate_user!
+* current_user
+* user_signed_in?
+* sign_in(@user)
+* sign_out(@user)
+* user_session
 
 These are the main helper methods that are usually helpful to manage the current user object in the controller and in the views. You will find more about it in [Devise's documentation](https://github.com/heartcombo/devise#controller-filters-and-helpers) and in this [Launchschool article](https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication).
 
 # Enjoy Devise!
 
 Learn.co provides a lot of resources about Devise, that I will share it in case you want to learn more:
-*[Devise Lab](https://learn.co/lessons/devise_lab)
-*[Devise architectures and modules](hhttps://learn.co/lessons/devise_readme)
-*[Create roles with Devise](https://learn.co/lessons/rails-video-review-devise-roles-lab)
+* [Devise Lab](https://learn.co/lessons/devise_lab)
+* [Devise architectures and modules](hhttps://learn.co/lessons/devise_readme)
+* [Create roles with Devise](https://learn.co/lessons/rails-video-review-devise-roles-lab)
 
 Obviously, I run into all these little issue when I first used Devise, as I didn't read all the documentation at the beginning. Some issues are not so simple to figure out quickly, some I hope this will save some people some times! At first I was a bit scared to use a gem for such a tricky subject, but the gem is widely used and makes developers' life so simple. Devise is a great tool, I hope you will enjoy it!
