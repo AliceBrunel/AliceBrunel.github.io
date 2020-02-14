@@ -4,8 +4,6 @@ title:      "Some tiny warnings when adding the Devise Gem to your application"
 date:       2020-02-14 05:46:35 -0400
 permalink:  tiny_warnings_about_devise_gem
 ---
-
-# What is Devise? 
 Once you know how to implement a user authentication, it can be a bit tiring to do all the steps - to create the models, views, controllers, validations..., especially knowing that there is a gem that can do that for you. So Devise can handle all the user authentication as a whole. In only a few steps, the gem will create everything for you and you will just to customise it a little. 
 
 In theory.
@@ -43,5 +41,10 @@ The other thing is that you don't have to create authentication helpers as some 
 These are the main helper methods that are usually helpful to manage the current user object in the controller and in the views. You will find more about it in [Devise's documentation](https://github.com/heartcombo/devise#controller-filters-and-helpers) and in this [Launchschool article](https://launchschool.com/blog/how-to-use-devise-in-rails-for-authentication).
 
 # Enjoy Devise!
+
+Learn.co provides a lot of resources about Devise, that I will share it in case you want to learn more:
+*[Devise Lab](https://learn.co/lessons/devise_lab)
+*[Devise architectures and modules](hhttps://learn.co/lessons/devise_readme)
+*[Create roles with Devise](https://learn.co/lessons/rails-video-review-devise-roles-lab)
 
 Obviously, I run into all these little issue when I first used Devise, as I didn't read all the documentation at the beginning. Some issues are not so simple to figure out quickly, some I hope this will save some people some times! At first I was a bit scared to use a gem for such a tricky subject, but the gem is widely used and makes developers' life so simple. Devise is a great tool, I hope you will enjoy it!
